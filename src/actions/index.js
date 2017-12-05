@@ -2,7 +2,7 @@ export const ADD_ITEM = 'ADD_ITEM'
 export const ADD_ITEM_ASYNC = 'ADD_ITEM_ASYNC'
 export const REMOVE_ITEM = 'REMOVE_ITEM'
 
-export function addItemAsync (itemName) {
+export function asyncAddItem (itemName) {
   return {
     type: ADD_ITEM_ASYNC,
     itemName
